@@ -1,8 +1,8 @@
 # joeymiles.github.io
 
-Public portfolio site for **Joey Miles** — [https://joeymiles.github.io](https://joeymiles.github.io)
+Public portfolio for **Joey Miles** — [https://joeymiles.github.io](https://joeymiles.github.io)
 
-Plain HTML/CSS on GitHub Pages (`.nojekyll`). No build step.
+Evening workshop / PowerShell craft look: ink charcoal, copper accents, Fraunces + IBM Plex Sans. Plain HTML/CSS on GitHub Pages (`.nojekyll`). No build step.
 
 ## Featured projects
 
