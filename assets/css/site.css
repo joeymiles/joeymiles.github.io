@@ -441,6 +441,31 @@ section { padding: 3.25rem 0; }
   border-color: var(--border);
   background: rgba(154, 145, 134, 0.08);
 }
+
+.project-shot {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #0a0c10;
+  text-decoration: none;
+}
+.project-shot:hover { border-color: rgba(201, 133, 74, 0.45); text-decoration: none; }
+.project-shot img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+.project-motto {
+  margin: -0.35rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  line-height: 1.45;
+}
 .project-card p {
   margin: 0;
   color: var(--muted);
