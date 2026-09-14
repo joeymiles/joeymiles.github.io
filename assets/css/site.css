@@ -515,6 +515,22 @@ section { padding: 3.25rem 0; }
 .prose p, .prose li { color: var(--muted); }
 .prose ul { padding-left: 1.25rem; }
 
+
+.connect-soon .connect-static {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--border);
+  background: rgba(22, 27, 36, 0.55);
+  color: var(--muted);
+}
+.connect-soon .connect-static span:first-child {
+  color: var(--cream-soft);
+  font-weight: 500;
+}
+
 /* ——— Footer ——— */
 .site-footer {
   border-top: 1px solid var(--border);
