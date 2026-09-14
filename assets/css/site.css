@@ -342,7 +342,7 @@ section { padding: 3.25rem 0; }
   grid-template-columns: 1fr;
 }
 @media (min-width: 720px) {
-  .project-grid { grid-template-columns: repeat(3, 1fr); }
+  .project-grid { grid-template-columns: repeat(2, 1fr); }
 }
 .project-card {
   position: relative;
@@ -358,7 +358,7 @@ section { padding: 3.25rem 0; }
   overflow: hidden;
 }
 .project-card::before {
-  content: "PS";
+  content: "";
   position: absolute;
   top: 0.85rem;
   right: 0.95rem;
@@ -373,6 +373,8 @@ section { padding: 3.25rem 0; }
   padding: 0.15rem 0.35rem;
   pointer-events: none;
 }
+.project-card.craft-ps::before { content: "PS"; }
+.project-card.craft-py::before { content: "PY"; }
 .project-card::after {
   content: "";
   position: absolute;
@@ -388,6 +390,21 @@ section { padding: 3.25rem 0; }
   box-shadow: var(--shadow-lift);
 }
 .project-card:hover::before { opacity: 0.75; }
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  padding-right: 2.2rem;
+}
+.star-badge {
+  display: inline-flex;
+  line-height: 0;
+  text-decoration: none;
+}
+.star-badge:hover { opacity: 0.9; text-decoration: none; }
+.star-badge img { height: 20px; width: auto; }
 .project-card h3 {
   margin: 0;
   font-family: var(--font-display);
